@@ -9,8 +9,8 @@ const client = new Client({
   ],
 });
 
-const DISCORD_TOKEN = process.env.DISCORD_TOKEN;
-const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
+const DISCORD_TOKEN = process.env.MTUxNDU3NzU1MTk5NjIyNzY1NA.Gi70ww.TXe6oihb2IqBGMlVI6Bux2fED4K5fKhA1Vx5sU;
+const GEMINI_API_KEY = process.env.AQ.Ab8RN6K_rulWWNbtMZQQrLuvu84d8o_XOvvWo_LNgk4O7DCqvA;
 
 client.on("messageCreate", async (message) => {
   if (message.author.bot) return;
