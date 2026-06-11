@@ -22,7 +22,7 @@ client.on("messageCreate", async (message) => {
 
     try {
       const res = await axios.post(
-        `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${GEMINI_API_KEY}`,
+        `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${AQ.Ab8RN6K_rulWWNbtMZQQrLuvu84d8o_XOvvWo_LNgk4O7DCqvA}`,
         {
           contents: [{ parts: [{ text: prompt }] }],
         }
