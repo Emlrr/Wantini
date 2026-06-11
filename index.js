@@ -39,4 +39,4 @@ client.on("messageCreate", async (message) => {
   }
 });
 
-client.login(DISCORD_TOKEN)
+client.login(MTUxNDU3NzU1MTk5NjIyNzY1NA.Gi70ww.TXe6oihb2IqBGMlVI6Bux2fED4K5fKhA1Vx5sU)
